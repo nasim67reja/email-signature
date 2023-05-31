@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 59rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+.card {
+  height: 15rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
+.col {
+  background-color: #333438;
+}
+
+.col-1 {
+  width: 17.9rem;
+  background-color: #2f2c41;
+}
+.col-1 img {
+  width: 15.4rem;
+  height: 3.9rem;
+}
+
+.col-2 {
+  padding-left: 1.8rem;
+  /* padding-right: 1.8rem; */
+}
+.col-2 img {
+  width: 11.599rem;
+  height: 11.617rem;
+}
+.col-3 {
+  /* width: 35%; */
+  flex: 1;
+  color: white;
+}
+.head-box {
+  margin-bottom: 1rem;
+  transform: translateY(-1rem);
+}
+.head-box h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 2px;
+}
+.head-box p {
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+.info-box img {
+  width: 1rem;
+  height: 0.9rem;
+  margin-bottom: 6px;
+  margin-right: 0.5rem;
+}
+.info-box p {
+  transform: translateY(-0.3rem);
+}
+.w-fit {
+  width: 80%;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.social-icon-box {
+  bottom: 4%;
+  right: 6%;
+}
+.social-icon-box img {
+  width: 1.2rem;
+  cursor: pointer;
+}
+.logo-w {
+  width: 70%;
+}
