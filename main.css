@@ -39,7 +39,6 @@ body {
 .col {
   background-color: #333438;
 }
-
 .col-1 {
   width: 17.9rem;
   background-color: #2f2c41;
@@ -48,7 +47,6 @@ body {
   width: 15.4rem;
   height: 3.9rem;
 }
-
 .col-2 {
   padding-left: 1.8rem;
   /* padding-right: 1.8rem; */
@@ -89,12 +87,6 @@ body {
 }
 .w-fit {
   width: 80%;
-}
-.relative {
-  position: relative;
-}
-.absolute {
-  position: absolute;
 }
 .social-icon-box {
   bottom: 4%;
