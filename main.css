@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 59rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+table {
+  height: 150px;
+  width: 550px;
+}
+tr {
+  height: 100%;
+}
+.col,
+table {
+  background-color: #333438;
+}
+.col-1 {
+  width: 179px;
+  background-color: #2f2c41;
+  height: 100%;
+  text-align: center;
+}
+.col-1 img {
+  width: 154px;
+}
+.col-2 {
+  text-align: center;
+  width: 154px;
+}
+.col-3 {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+.flex img {
+  height: 10px;
+}
+
+.head-box {
+  margin-bottom: 14px;
+}
+.head-box h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 2px;
+}
+.head-box p {
+  font-weight: 400;
+  line-height: 12px;
+}
+.info-box {
+  margin-bottom: 13px;
+}
+.info-box img {
+  width: 10px;
+  height: 9px;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+.info-box p {
+  transform: translateY(-3px);
+}
+
+.social-icon-box {
+  text-align: end;
+  /* transform: translate(-15px, 6px); */
+  margin-right: 15px;
+}
+.social-icon-box img {
+  width: 15px;
+  cursor: pointer;
+}
